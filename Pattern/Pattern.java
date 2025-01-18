@@ -145,6 +145,39 @@ public class Pattern {
             System.out.println();
         }
     }
+    public static void number_pyramid(int n){
+        for(int i=1;i<=n;i++){
+            for(int j=1;j<=n-i;j++){
+                System.out.print(" ");
+            }
+            for(int k=1;k<=i;k++){
+                System.out.print(" "+i);
+            }
+            System.out.println();
+        }
+    }
+
+    public static void palindromic_number(int n){
+        //outer loop
+        for(int i=1;i<=n;i++){
+
+            //spaces (n-i)
+            for(int j=1;j<=n-i;j++){
+                System.out.print("  ");
+            }
+            //decreasing order
+            for(int k=i;k>=1;k--){
+                System.out.print(k+" ");
+            }
+
+            //increasing order
+            for(int l=2;l<=i;l++){
+                System.out.print(l+" ");
+            }
+
+            System.out.println();
+        }
+    }
     public static void main(String[] args) {
         // hollow(4, 5);
         // invertedpyramid(4);
@@ -154,7 +187,9 @@ public class Pattern {
         // butterfly(5);
         // solid_rohmbus(5);
         // hollow_rohmbus(5);
-        diamond(4);
+        // diamond(4);
+        // number_pyramid(5);
+        palindromic_number(5);
 
     }
 }
