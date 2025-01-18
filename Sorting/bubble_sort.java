@@ -1,3 +1,5 @@
+import java.util.*;
+
 public class bubble_sort {
 
     public static void printarr(int arr[]) {
@@ -69,12 +71,24 @@ public class bubble_sort {
             }
         }
     }
+
+    public static void reverse(int arr[]){
+        for(int start=0,end=arr.length-1;start<end;start++,end--){
+            int temp=arr[start];
+            arr[start]=arr[end];
+            arr[end]=temp;
+        }
+    }
     public static void main(String[] args) {
         int[] arr = { 5, 4, 1, 3, 2 };
         // bubbleSortAsc(arr);
         // bubbleSortDesc(arr);
         // selectionSortAsc(arr);
-        selectionSortDesc(arr);
+        // selectionSortDesc(arr);
+        Arrays.sort(arr);
         printarr(arr);
-    }
+        reverse(arr); // Reversing the array with traditional method two pointer approach
+        // Arrays.sort(arr,Collections.reverseOrder()); // This method will only work with Integer array
+        printarr(arr);
+    } 
 }
