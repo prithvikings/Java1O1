@@ -184,12 +184,12 @@ public class Pattern {
         // invertedhalfpyramidwithnumber(4);
         // floydTriangle(5);
         // zeroone(4);
-        // butterfly(5);
+        butterfly(4);
         // solid_rohmbus(5);
         // hollow_rohmbus(5);
         // diamond(4);
         // number_pyramid(5);
-        palindromic_number(5);
+        // palindromic_number(5);
 
     }
 }
