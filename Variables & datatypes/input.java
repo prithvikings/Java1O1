@@ -24,6 +24,5 @@ public class input{
         System.out.println("Enter the number: ");
         int num=sc.nextInt();
         System.out.println("The number is: "+num);
-        
     }
 }
