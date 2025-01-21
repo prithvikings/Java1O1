@@ -10,6 +10,7 @@
 
 //Hybrid Inheritance : Combination of two or more types of inheritance in a single program.
 
+//mutliple inheritance : When a class inherits properties & methods of more than one class. Java does not support multiple inheritance. It is supported by C++ but not by Java. 
 
 public class inheritence{
     public static void main(String[] args) {
