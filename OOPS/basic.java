@@ -6,6 +6,8 @@
 //class is a collection of objects and object is a single entity
 //class is a collection of objects and objects are real world entities
 
+//In java parent reference can be used to refer child object but child reference cannot be used to refer parent object
+
 public class basic{
     public static void main(String[] args) {
 
