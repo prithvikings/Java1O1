@@ -23,7 +23,6 @@ public class bubble_sort {
     }
 
 
-
     public static void bubbleSortDesc(int arr[]){
         int n=arr.length;
         for(int i=0;i<n-1;i++){
@@ -38,8 +37,9 @@ public class bubble_sort {
     }
 
 
+    
     public static void selectionSortAsc(int arr[]){
-        int n = arr.length;
+        int n=arr.length;
         for(int i=0;i<n-1;i++){
             int minIndex=i;
             for(int j=i+1;j<n;j++){
@@ -83,11 +83,11 @@ public class bubble_sort {
         int[] arr = { 5, 4, 1, 3, 2 };
         // bubbleSortAsc(arr);
         // bubbleSortDesc(arr);
-        // selectionSortAsc(arr);
+        selectionSortAsc(arr);
         // selectionSortDesc(arr);
-        Arrays.sort(arr);
-        printarr(arr);
-        reverse(arr); // Reversing the array with traditional method two pointer approach
+        // Arrays.sort(arr);
+        // printarr(arr);
+        // reverse(arr); // Reversing the array with traditional method two pointer approach
         // Arrays.sort(arr,Collections.reverseOrder()); // This method will only work with Integer array
         printarr(arr);
     } 
