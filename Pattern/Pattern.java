@@ -29,6 +29,7 @@ public class Pattern {
 
     }
 
+    
     public static void invertedhalfpyramidwithnumber(int n) {
         for (int i = 1; i <= n; i++) {
             for (int j = 1; j <= n - i + 1; j++) {
@@ -37,6 +38,7 @@ public class Pattern {
             System.out.println();
         }
     }
+   
 
     public static void floydTriangle(int n) {
         int count = 1;
@@ -48,6 +50,7 @@ public class Pattern {
             System.out.println();
         }
     }
+
 
     public static void zeroone(int n){
         for(int i=1;i<=n;i++){
@@ -62,6 +65,7 @@ public class Pattern {
             System.out.println();
         }
     }
+
 
     public static void butterfly(int n){
         for(int i=1;i<=n;i++){
@@ -90,7 +94,7 @@ public class Pattern {
             System.out.println();
         }
     }
-    
+ 
     public static void solid_rohmbus(int n){
         for(int i=1;i<=n;i++){
             for(int j=1;j<=n-i;j++){
@@ -105,7 +109,6 @@ public class Pattern {
             System.out.println();
         }
     }
-
     public static void hollow_rohmbus(int n){
 
         //outer loop
@@ -125,6 +128,8 @@ public class Pattern {
             System.out.println();
         }
     }
+
+    
     public static void diamond(int n){
         for(int i=1;i<=n;i++){
             for(int j=1;j<=n-i;j++){
@@ -145,6 +150,7 @@ public class Pattern {
             System.out.println();
         }
     }
+
     public static void number_pyramid(int n){
         for(int i=1;i<=n;i++){
             for(int j=1;j<=n-i;j++){
@@ -178,18 +184,20 @@ public class Pattern {
             System.out.println();
         }
     }
+
+    
     public static void main(String[] args) {
         // hollow(4, 5);
         // invertedpyramid(4);
         // invertedhalfpyramidwithnumber(4);
         // floydTriangle(5);
         // zeroone(4);
-        butterfly(4);
+        // butterfly(4);
         // solid_rohmbus(5);
         // hollow_rohmbus(5);
         // diamond(4);
         // number_pyramid(5);
-        // palindromic_number(5);
+        palindromic_number(5);
 
     }
 }
