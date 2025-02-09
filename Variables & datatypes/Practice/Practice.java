@@ -1,9 +1,12 @@
+
 /*
 Basic:-
 
 Question 1 : In a program, input 3 numbers: A, B andC. Youhave to output the average of
  these 3 numbers.
  (Hint : Average of N numbers is sum of those numbers divided by N)
+
+ 
  
  Question 2: In a program, input the side of a square. You have to output the area of the
  square.
