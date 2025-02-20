@@ -5,15 +5,6 @@
 //qs1- Write a program that reads a set of integers and then prints the sum of the even and odd integers.
 public class Practice {
 
-    public static void facto(){
-        int num = 5; // number to find factorial of
-        int fact=1;
-        for(int i=1;i<=num;i++){
-            fact=fact*i;
-        }
-        System.out.println("Factorial of "+num+" is "+fact);
-    }
-
     public static void table(){
         int num = 5; 
         for(int i=1;i<=10;i++){
@@ -21,9 +12,17 @@ public class Practice {
         }
     }
 
+    public static void facto(){
+        int n=5;
+        int facto=1;
+        for(int i=1;i<=n;i++){
+            facto=facto*i;
+        }
+        System.out.println("The Factorial of "+n+" is "+facto);
+    }
     
     public static void main(String[] args) {
         // facto();
-        // table();
+        table();
     }
 }
