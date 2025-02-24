@@ -1,18 +1,24 @@
 public class palindrom{
     public static void check_palindrom(String s){
-        s=s.toLowerCase();
-        int n=s.length();
-        int start=0;
-        int end=n-1;
-        if(s.charAt(start)!=s.charAt(end)){
-            System.out.println("Not it is not a palindrom");
-        }else{
-            System.out.println("Yes it is a Palindrom");
+        StringBuilder str=new StringBuilder();
+        for(char c:s.toCharArray()){
+            if(Character.isLetterOrDigit(c)){
+                str.append(Character.toLowerCase(c));
+            }
         }
+
+        int n=str.length();
+        for(int start=0,end=n-1;start<end;start++,end--){
+            if(str.charAt(start)!=str.charAt(end)){
+                System.out.println("Not a palindrom");
+                return;
+            }
+        }
+        System.out.println("Palindrom");
     }
 
     public static void main(String[] args) {
-        String s="Noom";
+        String s="Noo:n";
         check_palindrom(s);
     }
 }

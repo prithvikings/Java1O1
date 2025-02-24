@@ -25,3 +25,6 @@ public class largest {
         System.out.println("Largest string is " + largest);
     }
 }
+
+
+//Their is one more compare method in string class which is compareToIgnoreCase() which compares two strings lexicographically, ignoring case differences.
