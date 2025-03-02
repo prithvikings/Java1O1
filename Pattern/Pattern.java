@@ -165,17 +165,17 @@ public class Pattern {
     //     }
     // }
 
-    // public static void number_pyramid(int n){
-    //     for(int i=1;i<=n;i++){
-    //         for(int j=1;j<=n-i;j++){
-    //             System.out.print(" ");
-    //         }
-    //         for(int k=1;k<=i;k++){
-    //             System.out.print(" "+i);
-    //         }
-    //         System.out.println();
-    //     }
-    // }
+    public static void number_pyramid(int n){
+        for(int i=1;i<=n;i++){
+            for(int j=1;j<=n-i;j++){
+                System.out.print(" ");
+            }
+            for(int k=1;k<=i;k++){
+                System.out.print(" "+i);
+            }
+            System.out.println();
+        }
+    }
 
     public static void palindromic_number(int n){
         //outer loop
@@ -213,8 +213,8 @@ public class Pattern {
         // solid_rohmbus(5);
         // hollow_rohmbus(5);
         // diamond(4);
-        // number_pyramid(5);
-        palindromic_number(5);
+        number_pyramid(5);
+        // palindromic_number(5);
 
     }
 }
