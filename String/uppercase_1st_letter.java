@@ -3,7 +3,7 @@ public class uppercase_1st_letter {
     public static void main(String[] args) {
         // Input string
         String str = "hi i am STring";
-
+        
         // Split the string into words using space as a delimiter
         String[] words = str.split(" ");
 
